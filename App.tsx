@@ -1,20 +1,23 @@
+import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { AppNavigation } from './src/navigations';
 
-export default function App() {
+export default function App(): JSX.Element {
   return (
-    <View style={styles.container}>
-      <Text>Movies App</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <View style={styles.container}>
+        <AppNavigation />
+        <StatusBar style="light" />
+      </View>
+    </NavigationContainer>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: '#000',
   },
 });
