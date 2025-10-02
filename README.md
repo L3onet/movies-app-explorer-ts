@@ -130,7 +130,7 @@ npm list --depth=0
   - Navegación a pantalla de detalle al tocar una película
   - Tema oscuro consistente
 
-![Pantalla1](screenshots/pantalla1.png)
+![Pantalla1](screenshots/pantalla1.png){width=268 height=598}
 
 #### 2. Pantalla de Detalle de Película (`MovieDetailScreen`)
 - **Funcionalidad:** Muestra información detallada de una película seleccionada
@@ -150,7 +150,7 @@ npm list --depth=0
 - **Estructura de datos:** Interfaz Movie definida en TypeScript
 - **Preparado para API:** Estructura lista para integración con APIs reales
 
-![Pantalla2](screenshots/pantalla2.png)
+![Pantalla2](screenshots/pantalla2.png){width=268 height=598}
 
 ## 7. Scripts de Ejecución y Desarrollo
 
